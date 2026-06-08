@@ -45,7 +45,7 @@ Use ![RelateObjects](https://img.shields.io/badge/RelateObjects-red) modules to 
 The ![IdentifySecondaryObjects](https://img.shields.io/badge/IdentifySecondaryObjects-red) The “IdentifySecondaryObjects”  module was used to fill the small cytoplasmic holes in the glandular structure of adenomas to define epithelial area more recisely.
 ![Figure-AF-Qua-2](https://github.com/user-attachments/assets/5f85a2d7-fbf1-4495-b7c9-1a4d73385308)
 
-Use ![MaskObjects](https://img.shields.io/badge/MaskObjects-red) modules to identify positive biomarker objects in tumor cells and stromal areas, respectively. It also obtained stromal objects by removing overlapping Pan CK-positive objects from the ![IdentifiedTotalTissueObjects].(https://img.shields.io/badge/IdentifiedTotalTissueObjects-orange) images.
+Use ![MaskObjects](https://img.shields.io/badge/MaskObjects-red) modules to identify positive biomarker objects in tumor cells and stromal areas, respectively. It also obtained stromal objects by removing overlapping Pan CK-positive objects from the ![IdentifiedTotalTissueObjects](https://img.shields.io/badge/IdentifiedTotalTissueObjects-orange) images.
 ![Figure-AF-Qua-3](https://github.com/user-attachments/assets/efc93179-c7b6-42b5-861a-139037e2c7ff)
 
 Use ![ConvertObjectsToImage](https://img.shields.io/badge/ConvertObjectsToImage-red) modules to convert identified objects into images for further measurement, and the ![MeasureImageAreaOccupied](https://img.shields.io/badge/MeasureImageAreaOccupied-orange) modules measure the areas occupied by identified objects.
