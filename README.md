@@ -4,7 +4,8 @@ Multiplex immunohistochemistry (mIHC) technologies enable the simultaneous detec
 
 ## Step 1: Overlay Three Biomarkers
 After image acquisition to obtain original 16-bit grayscale TIFF images using the fluorescent microscope, we use ![GrayToColor](https://img.shields.io/badge/GrayToColor-red)  modules to overlay each biomarker image with DAPI and Pan CK images, thus transfer invisible 16-bit grayscale images to visible RGB images. This step generates overlaid color images for a visual quality check, allowing pathologists to assess image integrity to flag low-quality acquisitions and for post-analytical semi-quantification. This quality control process is essential to ensure that only high-quality images are included in downstream analyses, thereby enhancing the reliability and reproducibility of biomarker quantification. Images flagged as low-quality may be quantified separately using an adjusted processing pipeline. 
-![Step1](https://github.com/user-attachments/assets/876eca65-b4e8-41d7-b03d-5bfb82a76c0b)
+<img width="2478" height="1675" alt="Step1" src="https://github.com/user-attachments/assets/92812b09-fb44-4654-8623-afabb922e501" />
+
 
 ## Step 2: Identify target proteins and AF
 Place the six types of raw grayscale images (DAPI, AF, COX-2, PTGER4, PIK3CA, and Pan CK) into six separate image processing pipelines. 
