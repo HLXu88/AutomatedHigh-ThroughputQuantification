@@ -56,21 +56,21 @@ Use ![ConvertObjectsToImage](https://img.shields.io/badge/ConvertObjectsToImage-
 A set of ![CalculateMath](https://img.shields.io/badge/CalculateMath-red) modules automatically calculated the positive percentage of tumor cells, stromal cells, and total positive percentage for each biomarker.
 
 ### Co-localization measurement
-After a series of the same pipeline as single biomarker AF removal, use ![ConvertImageToObjects](https://img.shields.io/badge/ConvertImageToObjects-red) module to convert filtered biomarker images to calculable objects.
+Following a pipeline sequence identical to the single biomarker AF removal, use ![ConvertImageToObjects](https://img.shields.io/badge/ConvertImageToObjects-red) module to convert the filtered biomarker images into calculable objects.
 <img width="2687" height="1043" alt="Figure-Coexpression_IdentifyCoexpressionArea" src="https://github.com/user-attachments/assets/5ea1ebe3-7d32-4a81-acf8-60b62766567c" />
 
-The ![IdentifySecondaryObjects](https://img.shields.io/badge/IdentifySecondaryObjects-red) module was used to identify the epithelium areas.
+The ![IdentifySecondaryObjects](https://img.shields.io/badge/IdentifySecondaryObjects-red) module is used to identify the epithelium areas.
 <img width="2446" height="1060" alt="Figure-Coexpression_IdentifyEpi" src="https://github.com/user-attachments/assets/0ad11e1f-99b2-439a-8641-769147dd736c" />
 
-Use ![MaskObjects](https://img.shields.io/badge/MaskObjects-red) modules to identify positive coexpression objects in tumor cells and stromal areas.
+Use ![MaskObjects](https://img.shields.io/badge/MaskObjects-red) modules to identify positive coexpression objects in both the tumor cells and stromal areas.
 <img width="2483" height="1291" alt="Figure-Coexpression_IdentifyCoexpObjects" src="https://github.com/user-attachments/assets/41be0e37-7730-4287-b846-bde2b5585291" />
 
-After identify the stromal areas using ![MaskObjects](https://img.shields.io/badge/MaskObjects-red) module, same as single biomarker quantification, Use ![ConvertObjectsToImage](https://img.shields.io/badge/ConvertObjectsToImage-red) modules to convert identified objects into images for further measurement.
+After identifying the stromal areas using ![MaskObjects](https://img.shields.io/badge/MaskObjects-red) module (identical to single biomarker quantification), Use ![ConvertObjectsToImage](https://img.shields.io/badge/ConvertObjectsToImage-red) modules to convert the identified objects into images for further measurement.
 <img width="3511" height="1533" alt="Figure-Coexpression_ConvertObjects" src="https://github.com/user-attachments/assets/8b4d28a7-3657-42b3-b4ed-f1bc6034ea27" />
 
-Use ![CalculateMath](https://img.shields.io/badge/CalculateMath-red) modules calculate coexpression areas and percentage.
+Use ![CalculateMath](https://img.shields.io/badge/CalculateMath-red) modules to compute the coexpression areas and percentage metrics.
 <img width="4556" height="2484" alt="Figure-Coexpression_Math" src="https://github.com/user-attachments/assets/74346063-2354-4ae3-9f45-0aedeafd3687" />
 
-Calculate the total tissue areas using ![CalculateMath](https://img.shields.io/badge/CalculateMath-red) modules for data reference. Use ![ExportToSpreadsheet](https://img.shields.io/badge/ExportToSpreadsheet-red) to export result for further analysis.
+Calculate the total tissue areas using ![CalculateMath](https://img.shields.io/badge/CalculateMath-red) modules to serve as a data reference. Finally, use ![ExportToSpreadsheet](https://img.shields.io/badge/ExportToSpreadsheet-red) module to export your results for downstream statistical analysis.
 <img width="3262" height="1609" alt="Figure-Coexpression_Export" src="https://github.com/user-attachments/assets/c7fb0a14-adfe-4c58-9389-f8ea528df534" />
 
